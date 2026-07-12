@@ -1,4 +1,20 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+/* Open Sans - bundled locally for offline use */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('fonts/opensans-latin.woff2') format('woff2'),
+       url('fonts/OpenSans-Variable.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/opensans-latin.woff2') format('woff2'),
+       url('fonts/OpenSans-Variable.ttf') format('truetype');
+}
 /*
   Copyright (c) 2012 Julian Garnier
   Licensed under the MIT license
@@ -31,8 +47,6 @@ table {
   border-spacing: 0; }
 
 * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
   box-sizing: border-box; }
 
 body {
@@ -139,7 +153,6 @@ body {
   margin-top: -1.1em;
   margin-left: -1.1em;
   border: 0.07em solid rgba(160, 147, 130, 0.5);
-  box-sizing: border-box;
   box-sizing: border-box; }
 
 /* --------------------------------------------------------------------------- planets index */
