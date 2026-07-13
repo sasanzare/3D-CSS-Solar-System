@@ -1,0 +1,30 @@
+{
+  "name": "3d-css-solar-system",
+  "version": "1.0.0",
+  "description": "Interactive Three.js solar system with responsive 3D controls.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node dev-server.mjs",
+    "check": "node --check js/scripts.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasanzare/3D-CSS-Solar-System.git"
+  },
+  "keywords": [
+    "threejs",
+    "webgl",
+    "solar-system",
+    "3d"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sasanzare/3D-CSS-Solar-System/issues"
+  },
+  "homepage": "https://github.com/sasanzare/3D-CSS-Solar-System#readme",
+  "dependencies": {
+    "three": "0.165.0"
+  }
+}
